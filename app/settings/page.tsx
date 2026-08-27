@@ -1,7 +1,7 @@
 "use client";
 
 import Header from "@/components/layout/Header";
-import { Boxes, Github, Globe, Database } from "lucide-react";
+import { Boxes, Github, Globe } from "lucide-react";
 
 export default function SettingsPage() {
   return (
@@ -38,7 +38,7 @@ export default function SettingsPage() {
         <div className="card p-5">
           <h3 className="text-sm font-semibold text-slate-900 mb-1">Data Management</h3>
           <p className="text-sm text-slate-500 mb-4">
-            Your inventory data is stored locally in your browser's localStorage.
+            Your inventory data is stored locally in your browser&apos;s localStorage.
             It persists across sessions on this device.
           </p>
           <button
